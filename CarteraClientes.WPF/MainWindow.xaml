@@ -1,0 +1,19 @@
+﻿<Window x:Class="CarteraClientes.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarteraClientes.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Cartera de clientes" FontSize="22" 
+                   HorizontalAlignment="Center" Foreground="red"/>
+            <Button Content="Obtener datos" x:Name="btnObtener"
+                    Width="120" Click="btnObtener_Click"/>
+            <DataGrid x:Name="dgvClientes"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>

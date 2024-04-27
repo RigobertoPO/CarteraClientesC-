@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarteraClientes.ApiDemo", "CarteraClientes.ApiDemo\CarteraClientes.ApiDemo.csproj", "{C57DB71F-C44E-4B8B-9D65-4860F0340D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarteraClientes.Api", "CarteraClientes.Api\CarteraClientes.Api.csproj", "{43C76E98-4000-4E3D-98AF-984F75D44338}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clientes", "Clientes", "{0B9E6878-7875-4249-9584-527C79F12AD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servidor", "Servidor", "{A7B3B818-545C-4A17-A4A6-140438E062B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarteraClientes.WPF", "CarteraClientes.WPF\CarteraClientes.WPF.csproj", "{FA2D3335-94D2-4D38-A199-AD99F3B16CD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C57DB71F-C44E-4B8B-9D65-4860F0340D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57DB71F-C44E-4B8B-9D65-4860F0340D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57DB71F-C44E-4B8B-9D65-4860F0340D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57DB71F-C44E-4B8B-9D65-4860F0340D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C76E98-4000-4E3D-98AF-984F75D44338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C76E98-4000-4E3D-98AF-984F75D44338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C76E98-4000-4E3D-98AF-984F75D44338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C76E98-4000-4E3D-98AF-984F75D44338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA2D3335-94D2-4D38-A199-AD99F3B16CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2D3335-94D2-4D38-A199-AD99F3B16CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2D3335-94D2-4D38-A199-AD99F3B16CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2D3335-94D2-4D38-A199-AD99F3B16CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C57DB71F-C44E-4B8B-9D65-4860F0340D88} = {A7B3B818-545C-4A17-A4A6-140438E062B8}
+		{43C76E98-4000-4E3D-98AF-984F75D44338} = {A7B3B818-545C-4A17-A4A6-140438E062B8}
+		{FA2D3335-94D2-4D38-A199-AD99F3B16CD8} = {0B9E6878-7875-4249-9584-527C79F12AD3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C9FB4DD-93C8-46B5-ADE3-FE52E5AE7AEB}
+	EndGlobalSection
+EndGlobal
